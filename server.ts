@@ -71,7 +71,7 @@ import http from "http";
 import app from "./app";
 import debug from "debug";
 
-debug('backend-assessment-test:server'); // for development
+debug('app-name:server'); // for development
 
 const host: string = process.env.HOSTNAME || "http://127.0.0.1";
 const port: string | number = process.env.PORT || '3000'; 
